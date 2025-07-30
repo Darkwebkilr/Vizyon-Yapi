@@ -28,71 +28,86 @@
 </head>
 <body class="bg-gray-50">
 
-    <!-- Header -->
-    <header id="main-header" class="py-2 w-full z-50 bg-black shadow-md sticky top-0">
-        <div class="container mx-auto px-6 flex justify-between items-center">
-            <a href="index.html" class="flex items-center">
-                <img src="img/LOGO4.png" alt="Vizyon Boya Logo" class="h-24" loading="lazy">
-            </a>
-            <nav class="hidden lg:flex items-center space-x-8">
-                <a href="index.html" class="text-gray-200 hover:text-red-600 transition">Ana Sayfa</a>
-                <div class="relative group">
-                    <a href="hizmetlerimiz.html" class="text-gray-200 hover:text-red-600 transition flex items-center py-4">
-                        Hizmetlerimiz
-                        <i class="fas fa-chevron-down ml-2 text-xs"></i>
-                    </a>
-                    <div class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-0 py-2 w-56 z-[60] top-full">
-                        <a href="ic-cephe-boya.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-600 hover:text-white transition">İç Cephe Boya</a>
-                        <a href="dis-cephe-boya.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-600 hover:text-white transition">Dış Cephe Boya</a>
-                        <a href="alcipan-kartonpiyer.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-600 hover:text-white transition">Alçıpan & Kartonpiyer</a>
-                        <a href="saten-alci-siva.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-600 hover:text-white transition">Saten Alçı & Sıva</a>
-                        <a href="dekoratif-boya.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-600 hover:text-white transition">Dekoratif Boya</a>
-                        <a href="renk-danismanligi.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-600 hover:text-white transition">Renk Danışmanlığı</a>
+    <!-- HEADER -->
+    <header class="w-full z-50 sticky top-0">
+        <!-- Top Bar -->
+        <div class="bg-gray-800 text-white text-xs">
+            <div class="container mx-auto px-6 flex justify-between items-center py-1">
+                <div class="flex items-center space-x-4">
+                    <a href="mailto:info@vizyonboya.com" class="hover:text-red-500 transition"><i class="fas fa-envelope mr-1"></i> info@vizyonboya.com</a>
+                </div>
+                <div class="hidden md:flex items-center">
+                    <span>Profesyonel Çözümler, Kaliteli İşçilik</span>
+                </div>
+            </div>
+        </div>
+        <!-- Main Navigation -->
+        <nav id="main-nav" class="bg-black shadow-md">
+            <div class="container mx-auto px-6 flex justify-between items-center py-2">
+                <a href="index.html" class="flex-shrink-0">
+                    <img src="img/LOGO4.png" alt="Vizyon Boya Logo" class="h-24" loading="lazy">
+                </a>
+                <div class="hidden lg:flex items-center space-x-8">
+                    <a href="index.html" class="font-medium text-gray-200 hover:text-red-600 transition">Ana Sayfa</a>
+                    <div class="relative group">
+                        <a href="hizmetlerimiz.html" class="font-medium text-gray-200 hover:text-red-600 transition flex items-center py-6">
+                            Hizmetlerimiz
+                            <i class="fas fa-chevron-down ml-2 text-xs transform group-hover:rotate-180 transition-transform"></i>
+                        </a>
+                        <div class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-0 py-2 w-56 z-[60] top-full transition-all duration-300 opacity-0 group-hover:opacity-100">
+                            <a href="ic-cephe-boya.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-600 hover:text-white transition">İç Cephe Boya</a>
+                            <a href="dis-cephe-boya.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-600 hover:text-white transition">Dış Cephe Boya</a>
+                            <a href="alcipan-kartonpiyer.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-600 hover:text-white transition">Alçıpan & Kartonpiyer</a>
+                            <a href="saten-alci-siva.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-600 hover:text-white transition">Saten Alçı & Sıva</a>
+                            <a href="dekoratif-boya.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-600 hover:text-white transition">Dekoratif Boya</a>
+                            <a href="renk-danismanligi.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-600 hover:text-white transition">Renk Danışmanlığı</a>
+                        </div>
                     </div>
+                    <a href="galeri.html" class="font-medium text-gray-200 hover:text-red-600 transition">Çalışmalarımız</a>
+                    <a href="hakkimizda.html" class="font-medium text-gray-200 hover:text-red-600 transition">Hakkımızda</a>
+                    <a href="blog.html" class="font-medium text-gray-200 hover:text-red-600 transition">Blog</a>
+                    <a href="iletisim.html" class="font-bold text-red-600 transition">İletişim</a>
                 </div>
-                <a href="galeri.html" class="text-gray-200 hover:text-red-600 transition">Çalışmalarımız</a>
-                <a href="hakkimizda.html" class="text-gray-200 hover:text-red-600 transition">Hakkımızda</a>
-                <a href="blog.html" class="text-gray-200 hover:text-red-600 transition">Blog</a>
-                <a href="iletisim.html" class="text-red-600 font-bold transition">İletişim</a>
-            </nav>
-            <div class="hidden lg:flex items-center space-x-2">
-                <a href="tel:+905314730049" class="bg-gray-600 text-white font-semibold px-4 py-2 rounded-lg hover:bg-gray-700 transition-all duration-300 flex items-center shadow-md text-sm">
-                    <i class="fa-solid fa-phone mr-2"></i>
-                    <span>Yedek Numara</span>
-                </a>
-                <a href="tel:+905335953576" class="bg-red-600 text-white font-semibold px-5 py-3 rounded-lg hover:bg-red-700 transition-all duration-300 flex items-center shadow-md">
-                    <i class="fa-solid fa-phone mr-2"></i>
-                    <span>+90 533 595 35 76</span>
-                </a>
-            </div>
-            <button id="mobile-menu-button" class="lg:hidden text-gray-700">
-                <i class="fas fa-bars text-2xl"></i>
-            </button>
-        </div>
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden lg:hidden bg-white px-6 pt-2 pb-4 border-t border-gray-200">
-            <a href="index.html" class="block py-2 text-gray-200 hover:text-red-600">Ana Sayfa</a>
-            <div class="w-full">
-                <button id="mobile-hizmetler-button" class="w-full text-left flex justify-between items-center py-2 text-gray-200 hover:text-red-600">
-                    <span>Hizmetlerimiz</span>
-                    <i id="mobile-hizmetler-icon" class="fas fa-chevron-down text-xs"></i>
+                <div class="hidden lg:flex items-center space-x-2">
+                    <a href="tel:+905314730049" class="bg-gray-600 text-white font-semibold px-4 py-2 rounded-lg hover:bg-gray-700 transition-all duration-300 flex items-center shadow-md text-sm">
+                        <i class="fa-solid fa-phone mr-2"></i>
+                        <span>Yedek Numara</span>
+                    </a>
+                    <a href="tel:+905335953576" class="bg-red-600 text-white font-semibold px-5 py-3 rounded-lg hover:bg-red-700 transition-all duration-300 flex items-center shadow-md">
+                        <i class="fa-solid fa-phone mr-2"></i>
+                        <span>+90 533 595 35 76</span>
+                    </a>
+                </div>
+                <button id="open-menu-button" class="lg:hidden text-white text-2xl">
+                    <i class="fas fa-bars"></i>
                 </button>
-                <div id="mobile-hizmetler-submenu" class="hidden pl-4 mt-2 space-y-2">
-                    <a href="ic-cephe-boya.html" class="block text-sm text-gray-200 hover:text-red-600">İç Cephe Boya</a>
-                    <a href="dis-cephe-boya.html" class="block text-sm text-gray-200 hover:text-red-600">Dış Cephe Boya</a>
-                    <a href="alcipan-kartonpiyer.html" class="block text-sm text-gray-200 hover:text-red-600">Alçıpan & Kartonpiyer</a>
-                    <a href="saten-alci-siva.html" class="block text-sm text-gray-200 hover:text-red-600">Saten Alçı & Sıva</a>
-                    <a href="dekoratif-boya.html" class="block text-sm text-gray-200 hover:text-red-600">Dekoratif Boya</a>
-                    <a href="renk-danismanligi.html" class="block text-sm text-gray-200 hover:text-red-600">Renk Danışmanlığı</a>
-                </div>
             </div>
-            <a href="galeri.html" class="block py-2 text-gray-200 hover:text-red-600">Çalışmalarımız</a>
-            <a href="hakkimizda.html" class="block py-2 text-gray-200 hover:text-red-600">Hakkımızda</a>
-            <a href="blog.html" class="block py-2 text-gray-200 hover:text-red-600">Blog</a>
-            <a href="iletisim.html" class="block py-2 text-red-600 font-bold">İletişim</a>
-            <a href="tel:+905335953576" class="block py-2 mt-2 text-red-600 font-bold"><i class="fa-solid fa-phone mr-2"></i>Telefonla Ara</a>
-        </div>
+        </nav>
     </header>
+
+    <!-- Mobile Menu (Diagonal Animation) -->
+    <div id="mobile-menu" class="fixed inset-0 bg-black bg-opacity-95 z-[100] flex flex-col items-center justify-center space-y-6 text-white text-2xl lg:hidden">
+        <button id="close-menu-button" class="absolute top-8 right-8 text-3xl text-white">&times;</button>
+        <a href="index.html" class="hover:text-red-500 transition">Ana Sayfa</a>
+        <div class="w-full text-center">
+            <button id="mobile-hizmetler-button" class="w-full text-center flex justify-center items-center hover:text-red-500">
+                <span>Hizmetlerimiz</span>
+                <i id="mobile-hizmetler-icon" class="fas fa-chevron-down text-sm ml-2"></i>
+            </button>
+            <div id="mobile-hizmetler-submenu" class="hidden mt-4 space-y-4 text-lg">
+                <a href="ic-cephe-boya.html" class="block text-gray-300 hover:text-red-500">İç Cephe Boya</a>
+                <a href="dis-cephe-boya.html" class="block text-gray-300 hover:text-red-500">Dış Cephe Boya</a>
+                <a href="alcipan-kartonpiyer.html" class="block text-gray-300 hover:text-red-500">Alçıpan & Kartonpiyer</a>
+                <a href="saten-alci-siva.html" class="block text-gray-300 hover:text-red-500">Saten Alçı & Sıva</a>
+                <a href="dekoratif-boya.html" class="block text-gray-300 hover:text-red-500">Dekoratif Boya</a>
+                <a href="renk-danismanligi.html" class="block text-gray-300 hover:text-red-500">Renk Danışmanlığı</a>
+            </div>
+        </div>
+        <a href="galeri.html" class="hover:text-red-500 transition">Çalışmalarımız</a>
+        <a href="hakkimizda.html" class="hover:text-red-500 transition">Hakkımızda</a>
+        <a href="blog.html" class="hover:text-red-500 transition">Blog</a>
+        <a href="iletisim.html" class="hover:text-red-500 transition">İletişim</a>
+    </div>
 
     <main>
         <section class="py-20">
@@ -125,7 +140,7 @@
                                 <i class="fab fa-whatsapp text-2xl text-green-500 mt-1"></i>
                                 <div class="ml-4">
                                     <h3 class="text-lg font-semibold">WhatsApp</h3>
-                                    <a href="https://wa.me/905335953576?text=Merhaba" target="_blank" class="text-gray-200 hover:text-red-600 transition">Hızlı Mesaj Gönder</a>
+                                    <a href="https://wa.me/905335953576?text=Merhaba" target="_blank" class="text-gray-600 hover:text-red-600 transition">Hızlı Mesaj Gönder</a>
                                 </div>
                             </div>
                             <div class="flex items-start">
