@@ -1,1 +1,1 @@
-Özellik: Kapsamlı SEO ve sosyal medya meta etiketleri eklendi
+feat: Hero gorseli guncellendi ve yorum bolumu eklendi
