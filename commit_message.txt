@@ -1,1 +1,1 @@
-feat: Hero gorseli guncellendi ve yorum bolumu eklendi
+feat: Ana sayfaya video arka plan, galeri ve blog güncellemeleri
